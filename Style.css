@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+html{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserra', sans-serif;
+}
+body{
+    background-color: #fdfdfd;
+}
+.container{
+    width: 100%;
+    margin: 30px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.Logo{
+    text-align: center;
+}
+.container .left-side{
+    padding: 30px;
+    color: white;
+    background-color: #212121;
+}
+.container .right-side{
+    padding: 40px;
+    color:#212121;
+    width: 100%;
+    grid-column: 2 / 4;
+    grid-row: 1 / 2;
+}
+.container .Contact{
+    position: relative;
+    color:white;
+}
+.container .left-side .Title{
+    color: #fdfdfd;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    background-color: #B77C70;
+    text-align: center;
+}
+.container .left-side .Diplome{
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+.container .left-side .Logiciels{
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+.container .right-side .Title{
+    color: #fdfdfd;
+    background-color: #327D67;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+h1{
+    color: #212121;
+    text-transform: uppercase;
+    font-weight: 1000;
+    font-size: 50px;
+    line-height: 0.5;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+.container .right-side .Job{
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+.container .right-side .Lieu{
+    text-transform: capitalize;
+    font-size: small;
+}
+.container .right-side .Date{
+    text-transform: capitalize;
+    font-size: small;
+}
+.container .right-side .Apropos{
+    line-height: 1.5;
+}
